@@ -9,11 +9,10 @@ function App() {
 
   return (
     <>
-  
-  
-     
-     <FoodListing/>
+    <FoodListing/>
      <Orders/>
+    
+     
     </>
   )
 }

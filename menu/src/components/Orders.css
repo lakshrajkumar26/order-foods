@@ -1,0 +1,168 @@
+/* .main {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-info {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-info input {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.order-info input:focus {
+  border-color: #4CAF50;
+}
+
+.order-info button {
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-info button:hover {
+  background-color: #43a047;
+}
+
+
+ */
+
+
+ /* Container around the input form */
+.main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Order Form Card */
+.order-info {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-left: 6px solid #4CAF50;
+}
+
+.order-info h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.order-info input {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.order-info input:focus {
+  border-color: #4CAF50;
+}
+
+.order-info button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.order-info button:hover {
+  background-color: #388e3c;
+}
+
+/* Orders Dashboard Grid */
+.order-dashboard {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual Order Card */
+.order-card {
+  background: #fafafa;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  border-top: 4px solid #4CAF50;
+  transition: transform 0.2s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+}
+
+.order-card h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.order-card p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+.order-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.order-card li {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #555;
+  list-style-type: disc;
+}
+
+
+
+
+
+
+
+
+
+
